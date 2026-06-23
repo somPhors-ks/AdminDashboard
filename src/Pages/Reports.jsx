@@ -1,4 +1,6 @@
 import Linea_Chart from "../Component/Linea_Chart";
+import LineArea_Chart from "../Component/LineArea_chart";
+import Specific_Chart from "../Component/Specified_Chart";
 import "./Reports.css";
 
 const Reports = () => {
@@ -73,10 +75,27 @@ const Reports = () => {
           })}
         </div>
       </div>
+
       <div className="report-chart">
         <p className="textTitle">Sale Staticstic</p>
         <div className="chart">
           <Linea_Chart />
+        </div>
+      </div>
+
+      <div className="bussines-chart">
+        <div className="sale-chart">
+          <p className="textTitle">Real Time Sale</p>
+          <div className="chart">
+            <LineArea_Chart />
+          </div>
+        </div>
+
+        <div className="sale-chart">
+          <p className="textTitle">Order Analysis</p>
+          <div className="chart">
+            <Specific_Chart />
+          </div>
         </div>
       </div>
     </div>
