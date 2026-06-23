@@ -1,0 +1,53 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+.menuItem {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  height: 45px;
+  list-style: none;
+  padding: 6px;
+  border-radius: 40px;
+}
+.btn-search {
+  font-size: 24px;
+  cursor: pointer;
+}
+.menuItem input {
+  width: 100%;
+  padding: 12px;
+  height: 100%;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+.profile {
+  height: 45px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  padding: 6px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all ease-in-out 0.35s;
+}
+.profile:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.35s;
+}
+.profile img {
+  width: 35px;
+  border-radius: 50%;
+  border: solid 2px black;
+}

@@ -1,0 +1,108 @@
+.report-page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+}
+
+.report-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.textTitle {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+.title {
+  width: 100%;
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
+}
+.sale-report {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  background-color: rgb(232, 232, 232);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.report-card {
+  width: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+}
+.report-card-active {
+  width: 250px;
+  height: 100%;
+  background-color: rgb(132, 211, 169);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+}
+.title-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.title-card span {
+  font-size: 11px;
+  color: rgb(105, 105, 105);
+}
+.report-number {
+  width: 100%;
+  font-size: 38px;
+  font-weight: 500;
+  color: rgb(94, 94, 190);
+}
+
+.desc-report {
+  width: 100%;
+  font-size: 11px;
+  color: rgb(105, 105, 105);
+}
+
+.report-chart {
+  width: 100%;
+  height: 370px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.report-chart .chart {
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+}

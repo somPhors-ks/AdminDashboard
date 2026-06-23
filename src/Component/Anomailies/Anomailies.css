@@ -1,0 +1,51 @@
+.anomailies-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.item-ano {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 12px;
+}
+.ano-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.ano-profile .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: rgb(152, 186, 230);
+  color: rgb(255, 255, 255);
+  padding: 6px;
+  border-radius: 6px;
+}
+.ano-profile p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.desc {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(203, 203, 203);
+}
+.price-ano p {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(205, 54, 54);
+}

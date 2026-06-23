@@ -1,0 +1,153 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background-color: rgb(255, 255, 255);
+  width: 240px;
+  height: 100%;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: 12px;
+  border-radius: 24px;
+  transition: all ease-in-out 0.35s;
+}
+.sidebar-container-collapsed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background-color: rgb(255, 255, 255);
+  width: 90px;
+  height: 100%;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: 12px;
+  border-radius: 24px;
+  transition: all ease-in-out 0.35s;
+}
+
+.nemu-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.collaped {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.collaped button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.35s;
+}
+.collaped button:hover {
+  transform: scale(1.02);
+  background-color: rgb(231, 231, 231);
+  transition: all ease-in-out 0.35s;
+}
+.collapsed-icon {
+  font-size: 26px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+}
+.general-tools {
+  background-color: rgb(239, 239, 239);
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+}
+.general-tools p {
+  font-size: 12px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.general-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
+}
+.general-items li {
+  width: 100%;
+}
+.general-items a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(38, 38, 38);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all ease-in-out 0.35s;
+}
+.general-items a:hover {
+  background-color: rgb(248, 248, 248);
+  transition: all ease-in-out 0.35s;
+}
+.active {
+  background-color: rgb(230, 189, 108);
+}
+.icon-general-tools {
+  font-size: 22px;
+  width: 22px;
+  height: 22px;
+}
+
+.action {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(119, 151, 219);
+  padding: 12px;
+  border-radius: 12px;
+}
+.label-name {
+  transform: scale(1);
+  transition: all ease-in-out 0.35s;
+}
+.textHide {
+  display: none;
+  transform: scale(0.5);
+  transition: all ease-in-out 0.35s;
+}
+
+@media (max-width: 900px) {
+  .sidebar-container {
+    width: 200px;
+  }
+}

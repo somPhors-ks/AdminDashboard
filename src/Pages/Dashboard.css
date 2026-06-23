@@ -1,0 +1,105 @@
+.title {
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
+}
+.title p {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(4, 75, 69);
+}
+
+.grid-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.area-chart {
+  background-color: white;
+  width: 100%;
+  height: 294px;
+  border-radius: 20px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.area-text {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.area-text .text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.chart {
+  background-color: rgb(239, 239, 239);
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.chart-color {
+  background-color: rgb(255, 255, 255);
+}
+.chart-goal {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.record {
+  background-color: rgb(165, 171, 222);
+  width: 450px;
+  height: 294px;
+  border-radius: 20px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.record-123:nth-child(1) {
+  background-color: white;
+  width: 100%;
+  height: 294px;
+  border-radius: 20px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.record-123 {
+  background-color: white;
+  width: 900px;
+  height: 294px;
+  border-radius: 20px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .grid-items_1 {
+    flex-wrap: wrap;
+  }
+  .record {
+    width: 100%;
+  }
+
+  .grid-items_2 {
+    flex-wrap: wrap;
+  }
+  .record-123 {
+    width: 48.5%;
+  }
+}
