@@ -14,48 +14,6 @@ import {
 const LineArea_Chart = () => {
   const products = [
     {
-      name: "Jan",
-      Sale: 1890,
-      Orders: 2181,
-      Visitors: 2181,
-      Revenue: 2181,
-    },
-    {
-      name: "Feb",
-      Sale: 1990,
-      Orders: 2281,
-      Visitors: 2381,
-      Revenue: 2881,
-    },
-    {
-      name: "Mar",
-      Sale: 2190,
-      Orders: 1681,
-      Visitors: 1688,
-      Revenue: 2581,
-    },
-    {
-      name: "Apr",
-      Sale: 2690,
-      Orders: 2081,
-      Visitors: 2281,
-      Revenue: 2181,
-    },
-    {
-      name: "May",
-      Sale: 1990,
-      Orders: 2281,
-      Visitors: 2381,
-      Revenue: 2881,
-    },
-    {
-      name: "Jun",
-      Sale: 2190,
-      Orders: 1681,
-      Visitors: 1688,
-      Revenue: 2581,
-    },
-    {
       name: "Jul",
       Sale: 2590,
       Orders: 1981,
@@ -96,6 +54,48 @@ const LineArea_Chart = () => {
       Orders: 2981,
       Visitors: 2588,
       Revenue: 3081,
+    },
+    {
+      name: "Jan",
+      Sale: 1890,
+      Orders: 2181,
+      Visitors: 2181,
+      Revenue: 2181,
+    },
+    {
+      name: "Feb",
+      Sale: 1990,
+      Orders: 2281,
+      Visitors: 2381,
+      Revenue: 2881,
+    },
+    {
+      name: "Mar",
+      Sale: 2190,
+      Orders: 1681,
+      Visitors: 1688,
+      Revenue: 2581,
+    },
+    {
+      name: "Apr",
+      Sale: 2690,
+      Orders: 2081,
+      Visitors: 2281,
+      Revenue: 2181,
+    },
+    {
+      name: "May",
+      Sale: 1990,
+      Orders: 2281,
+      Visitors: 2381,
+      Revenue: 2881,
+    },
+    {
+      name: "Jun",
+      Sale: 2190,
+      Orders: 1681,
+      Visitors: 1688,
+      Revenue: 2581,
     },
   ];
 

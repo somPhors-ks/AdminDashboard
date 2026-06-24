@@ -1,0 +1,53 @@
+.account-container {
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.account-container .colunm-acoount {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 6px;
+}
+.account-container .date-expense {
+  width: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.account-container .account-name {
+  width: 30%;
+  display: flex;
+  gap: 12px;
+  justify-content: start;
+  align-items: center;
+}
+.refenece {
+  width: 10%;
+}
+.status {
+  width: 15%;
+}
+.account-type {
+  width: 15%;
+}
+.account-amount {
+  width: 15%;
+}
+
+.account-name .img-profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

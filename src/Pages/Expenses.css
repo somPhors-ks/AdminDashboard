@@ -1,0 +1,280 @@
+.expenses-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.expenses-container .title {
+  height: 80px;
+}
+
+.add-expenses {
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expen-title {
+  font-family: 16px;
+  font-weight: 500;
+}
+.add-expenses button {
+  background-color: rgb(118, 187, 125);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 24px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all ease-in-out 0.35s;
+}
+.add-expenses button:hover {
+  background-color: rgb(155, 206, 160);
+  transition: all ease-in-out 0.35s;
+}
+
+.expenses {
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.all-expenses {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.expen-card {
+  width: 25%;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 20px;
+  border-left: solid 5px rgb(118, 187, 125);
+}
+.expen-card:nth-child(2) {
+  border-left: solid 5px rgb(64, 64, 216);
+}
+.expen-card:nth-child(3) {
+  border-left: solid 5px rgb(163, 64, 216);
+}
+.expen-card:nth-child(4) {
+  border-left: solid 5px rgb(216, 64, 127);
+}
+.expen-icon {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+.expen-icon .icon {
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  background-color: rgb(118, 187, 125);
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  border-radius: 6px;
+}
+.expen-icon .blue {
+  background-color: rgb(64, 64, 216);
+}
+.expen-icon .purple {
+  background-color: rgb(163, 64, 216);
+}
+.expen-icon .red {
+  background-color: rgb(216, 64, 127);
+}
+
+.expen-icon span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(132, 132, 132);
+}
+
+.expen-number {
+  width: 100%;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.all-expenses .desc {
+  width: 100%;
+  color: rgb(132, 132, 132);
+  font-size: 11px;
+}
+
+.vendor-container {
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.filter-vendor {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+  gap: 12px;
+}
+
+.expen-search {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  width: 40%;
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.expen-icon-search {
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+}
+.expen-search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.expen-filter {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 6px 0 12px 0;
+  width: 200px;
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
+  cursor: pointer;
+  transition: all ease-in-out 0.35s;
+}
+.expen-filter:hover {
+  background-color: rgb(212, 212, 212);
+  transition: all ease-in-out 0.35s;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.dropdown-header {
+  padding: 6px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  width: 100%;
+  background: rgb(241, 241, 241);
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.dropdown-item {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background: #ffffff;
+}
+
+.vendor {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+  gap: 12px;
+}
+
+.header-container {
+  padding: 0 24px;
+  border-radius: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.header-date-expense {
+  width: 15%;
+  background-color: rgb(141, 225, 140);
+}
+.header-name {
+  width: 30%;
+  background-color: rgb(140, 188, 225);
+}
+.header-refenece {
+  width: 10%;
+  background-color: rgb(140, 154, 225);
+}
+.header-status {
+  width: 15%;
+  background-color: rgb(204, 140, 225);
+}
+.header-account-type {
+  width: 15%;
+  background-color: rgb(225, 140, 195);
+}
+.header-account-amount {
+  width: 15%;
+  background-color: rgb(199, 225, 140);
+}
+
+.header-container .colunm-acoount {
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 500;
+  border-left: solid 3px rgb(255, 0, 157);
+}

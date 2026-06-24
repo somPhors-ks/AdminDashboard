@@ -74,7 +74,7 @@ const Sidebar = () => {
       routerLink: "billing",
     },
   ];
-  const [collaped, setCollapsed] = useState(false);
+  const [collaped, setCollapsed] = useState(true);
 
   const onCollaped = () => {
     if (collaped) {
